@@ -1,0 +1,76 @@
+{
+    "name": "Leonardo Silka",
+    "photo": "https://avatars.githubusercontent.com/u/101304835?v=4",
+    "job": "Desenvolvedor Full Stach",
+    "location": "Curitiba - PR",
+    "phone": "(41) 99218-6006",
+    "email": "devleosilka@hotmail.com",
+    "skills": {
+        "hardSkills": [
+            {
+                "name": "CSharp",
+                "logo": "https://raw.githubusercontent.com/leosilka/Portfolio/master/assets/img/icons/png/csharp.png"
+            },
+            {
+                "name": "dotnet",
+                "logo": "https://raw.githubusercontent.com/leosilka/Portfolio/master/assets/img/icons/png/dotnet.png"
+            },
+            {
+                "name": "Javascript",
+                "logo": "https://raw.githubusercontent.com/leosilka/Portfolio/master/assets/img/icons/png/javascript.png"
+            },
+            {
+                "name": "Sqlserver",
+                "logo": "https://raw.githubusercontent.com/leosilka/Portfolio/master/assets/img/icons/png/sqlserver.png"
+            },
+            {
+                "name": "HTML",
+                "logo": "https://raw.githubusercontent.com/leosilka/Portfolio/master/assets/img/icons/png/html.png"
+            },
+            {
+                "name": "CSS",
+                "logo": "https://raw.githubusercontent.com/leosilka/Portfolio/master/assets/img/icons/png/css.png"
+            }
+        ],
+        "softSkills": [
+            "Flexibilidade",
+            "Trabalho em Equipe",
+            "Concentração",
+            "Aprendizado Ágil",
+            "Evolução Constante"
+        ]
+    },
+    "languages": [
+        "Português BR",
+        "Inglês (iniciante)"
+    ],
+    "portfolio": [
+        {
+            "name": "WebApp de Lista de Mercado",
+            "url": "https://github.com/leosilka/ListaMercado",
+            "github": true
+        },
+        {
+            "name": "Desafio Organizador de Tarefas",
+            "url": "https://github.com/leosilka/api-desafio-dio",
+            "github": true
+        },
+        {
+            "name": "Criando uma Pokedex",
+            "url": "https://github.com/leosilka/Pokedex",
+            "github": true
+        }
+    ],
+    "professionalExperience": [
+        {
+            "name": "Estágio Suporte Técnico - LS Technologies",
+            "period": "Janeiro/2023 - Julho/2023",
+            "description": "Suporte técnico aos clientes de ERP, orientando em como realiza o uso de todas as ferramentas disponiveis em sistemas, esclarecimentos fiscais, auxilio ao gerar relatório, instalação de servidor e terminal local, correções via SQL usando PostgreSQL."
+        },
+        {
+            "name": "Assistente de Atendimento ao Aluno - Universidade Positivo",
+            "period": "Fevereiro/2022 - Janeiro/2023",
+            "description": "Suporte acadêmico aos alunos realizando a disponibilização de disciplinas e materiais de estudos, correções de mensalidades, esclarecimento acadêmico e orientações estudantis"
+        }
+    ]
+}
