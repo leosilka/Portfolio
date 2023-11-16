@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfólio - Leo Silka</title>
+    <title>Portfolio - Leo Silka</title>
     <link rel="shortcut icon" href="./assets/img/logo-ls.ico" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,21 +16,70 @@
     <link rel="stylesheet" href="./assets/styles/header.css" />
     <link rel="stylesheet" href="./assets/styles/acordeon.css">
     <link rel="stylesheet" href="./assets/styles/languages.css">
+    <link rel="stylesheet" href="./assets/styles/portfolio.css">
+    <link rel="stylesheet" href="./assets/styles/experience.css">
+    <link rel="stylesheet" href="./assets/styles/skills.css">
   </head>
   <body>
-    <div class="main">
+    <main class="main">
       <header class="header">
         <img src="./assets/img/LeoSilka.jpg" alt="Foto de Leonardo Silka" class="photo" />
         <h1 class="title">Olá,<br />eu sou Leonardo Silka</h1>
         <div class="information">
           <p class="job">Developer Full Stack</p>
           <p class="location">Curitiba - PR</p>
-          <p class="phone">(41) 9 9218-6006</p>
-          <p class="email">devleosilka@hotmail.com</p>
+          <p class="phone">
+            <a href="tel:+5541992186006">(41) 9 9218-6006</a>
+          </p>
+          <p class="email">
+            <a href="mailto:devleosilka@hotmail.com">devleosilka@hotmail.com</a>
+          </p>
         </div>
       </header>
-      <section class="acordeon open">
-        <button class="trigger" type="button">Idiomas</button>
+      <!-- Skills -->
+      <section class="acordeon">
+        <button class="trigger" type="button"><h3>Skills</h3></button>
+        <div class="content">
+          <div class="skills">
+            <section class="tools">
+              <h4>Habilidades Profissionais:</h4>
+              <ul>
+                <li>
+                  <img src="./assets/img/icons/png/csharp.png" alt="csharp" title="csharp">
+                </li>
+                <li>
+                  <img src="./assets/img/icons/png/dotnet.png" alt="dotnet" title="dotnet">
+                </li>
+                <li>
+                  <img src="./assets/img/icons/png/sqlserver.png" alt="sqlserver" title="sqlserver">
+                </li>
+                <li>
+                  <img src="./assets/img/icons/png/javascript.png" alt="javascript" title="javascript">
+                </li>
+                <li>
+                  <img src="./assets/img/icons/png/css.png" alt="css" title="css">
+                </li>
+                <li>
+                  <img src="./assets/img/icons/png/html.png" alt="html" title="html">
+                </li>
+              </ul>
+            </section>
+            <section class="personal">
+              <h4>Pessoal:</h4>
+              <ul>
+                <li>Flexibilidade</li>
+                <li>Trabalho em Equipe</li>
+                <li>Concentração</li>
+                <li>Aprendizado Ágil</li>
+                <li>Evolução Constante</li>
+              </ul>
+            </section>
+          </div>
+        </div>
+      </section>
+      <!-- Idioma -->
+      <section class="acordeon">
+        <button class="trigger" type="button"><h3>Idiomas</h3></button>
         <div class="content">
           <ul class="languages">
             <li>Português</li>
@@ -38,7 +87,48 @@
           </ul>
         </div>
       </section>
-    </div>
+      <!-- Portfolio -->
+      <section class="acordeon">
+        <button class="trigger" type="button"><h3>Portfolio</h3></button>
+        <div class="content">
+          <ul class="portfolio">
+            <li>
+              <h4 class="title github">WebApp de Lista de Mercado</h4>
+              <a href="https://github.com/leosilka/ListaMercado" target="_blank">https://github.com/leosilka/ListaMercado</a>
+            </li>
+            <li>
+              <h4 class="title github">Desafio Organizador de Tarefas</h4>
+              <a href="https://github.com/leosilka/api-desafio-dio" target="_blank">https://github.com/leosilka/api-desafio-dio</a>
+            </li>
+            <li>
+              <h4 class="title github">Pokedex</h4>
+              <a href="https://github.com/leosilka/Pokedex" target="_blank">https://github.com/leosilka/Pokedex</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- Profissional -->
+      <section class="acordeon">
+        <button class="trigger" type="button"><h3>Experiência Profissional</h3></button>
+        <div class="content">
+          <ul class="experience">
+            <li>
+              <h4 class="title">Estágio Suporte Técnico - LS Technologies</h4>
+              <p class="period">Janeiro/2023 - Julho/2023</p>
+              <p>Suporte técnico aos clientes de ERP, orientando em como realiza o uso de todas as ferramentas
+                disponiveis em sistemas, esclarecimentos fiscais, auxilio ao gerar relatório, instalação de
+                servidor e terminal local, correções via SQL usando PostgreSQL.</p>
+            </li>
+            <li>
+              <h4 class="title">Assistente de Atendimento ao Aluno - Universidade Positivo</h4>
+              <p class="period">Fevereiro/2022 - Janeiro/2023</p>
+              <p>Suporte acadêmico aos alunos realizando a disponibilização de disciplinas e materiais de
+                estudos, correções de mensalidades, esclarecimento acadêmico e orientações estudantis</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
     <script src="./assets/js/acordeon.js"></script>
   </body>
 </html>
