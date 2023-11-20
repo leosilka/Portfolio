@@ -59,6 +59,11 @@
             "name": "Criando uma Pokedex",
             "url": "https://github.com/leosilka/Pokedex",
             "github": true
+        },
+        {
+            "name": "Criando minha Lista de Tarefas (todo)",
+            "url": "https://github.com/leosilka/listadetarefa",
+            "github": true
         }
     ],
     "professionalExperience": [
