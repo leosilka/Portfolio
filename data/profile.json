@@ -16,6 +16,14 @@
                 "logo": "https://raw.githubusercontent.com/leosilka/Portfolio/master/assets/img/icons/png/dotnet.png"
             },
             {
+                "name": "Angular",
+                "logo": "https://raw.githubusercontent.com/leosilka/Portfolio/master/assets/img/icons/png/Angular.png"
+            },
+            {
+                "name": "NodeJS",
+                "logo": "https://raw.githubusercontent.com/leosilka/Portfolio/master/assets/img/icons/png/nodejs.png"
+            },
+            {
                 "name": "Javascript",
                 "logo": "https://raw.githubusercontent.com/leosilka/Portfolio/master/assets/img/icons/png/javascript.png"
             },
